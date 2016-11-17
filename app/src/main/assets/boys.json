@@ -1,6 +1,13 @@
 {
   "Boys":[
+
     { age : "6", height : "67", weight : 8,neg3SD:44.2,neg2SD:46.1,neg1SD:48.0,Medain:49.9,po1SD:51.8,po2SD:53.7,po3SD:55.6,m3rd:2.4,m15th:2.8,mMedian:3.2,m85th:3.7,m97th:4.2},
+    { age : "0", height : "67", weight : 8,neg3SD:44.2,neg2SD:46.1,neg1SD:48.0,Medain:49.9,po1SD:51.8,po2SD:53.7,po3SD:55.6,m3rd:2.4,m15th:2.8,mMedian:3.2,m85th:3.7,m97th:4.2},
+    { age : "6", height : "67", weight : 8,neg3SD:44.2,neg2SD:46.1,neg1SD:48.0,Medain:49.9,po1SD:51.8,po2SD:53.7,po3SD:55.6,m3rd:2.4,m15th:2.8,mMedian:3.2,m85th:3.7,m97th:4.2},
+    { age : "6", height : "67", weight : 8,neg3SD:44.2,neg2SD:46.1,neg1SD:48.0,Medain:49.9,po1SD:51.8,po2SD:53.7,po3SD:55.6,m3rd:2.4,m15th:2.8,mMedian:3.2,m85th:3.7,m97th:4.2},
+    { age : "6", height : "67", weight : 8,neg3SD:44.2,neg2SD:46.1,neg1SD:48.0,Medain:49.9,po1SD:51.8,po2SD:53.7,po3SD:55.6,m3rd:2.4,m15th:2.8,mMedian:3.2,m85th:3.7,m97th:4.2},
+
+    { age : "0", height : "67", weight : 8,neg3SD:44.2,neg2SD:46.1,neg1SD:48.0,Medain:49.9,po1SD:51.8,po2SD:53.7,po3SD:55.6,m3rd:2.4,m15th:2.8,mMedian:3.2,m85th:3.7,m97th:4.2},
     { age : "7", height : "67", weight : 8,neg3SD:44.2,neg2SD:46.1,neg1SD:48.0,Medain:49.9,po1SD:51.8,po2SD:53.7,po3SD:55.6,m3rd:2.4,m15th:2.8,mMedian:3.2,m85th:3.7,m97th:4.2},
     { age : "8", height : "67", weight : 8,neg3SD:44.2,neg2SD:46.1,neg1SD:48.0,Medain:49.9,po1SD:51.8,po2SD:53.7,po3SD:55.6,m3rd:2.4,m15th:2.8,mMedian:3.2,m85th:3.7,m97th:4.2},
     { age : "9", height : "67", weight : 8,neg3SD:44.2,neg2SD:46.1,neg1SD:48.0,Medain:49.9,po1SD:51.8,po2SD:53.7,po3SD:55.6,m3rd:2.4,m15th:2.8,mMedian:3.2,m85th:3.7,m97th:4.2}

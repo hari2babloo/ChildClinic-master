@@ -92,6 +92,9 @@ public class Secondtrial extends AppCompatActivity {
                 ned2sd.setText(jsonObject.optString("neg2SD").toString());
                 neg1sd.setText(jsonObject.optString("neg1SD").toString());
                 med.setText(jsonObject.optString("Medain").toString());
+                String less = jsonObject.optString("neg3SD").toString();
+                String med = jsonObject.optString("Medain").toString();
+                String more = jsonObject.optString("po3SD").toString();
                 pos1sd.setText(jsonObject.optString("po1SD").toString());
                 pos2sd.setText(jsonObject.optString("po2SD").toString());
                 pos3sd.setText(jsonObject.optString("po3SD").toString());
@@ -113,17 +116,41 @@ public class Secondtrial extends AppCompatActivity {
 
                 if (age.equalsIgnoreCase(agu)){
                     String actheight = ht.getText().toString();
-                    int n1 = Integer.parseInt(actheight);
-                    int n2= Integer.parseInt(height);
-                    int hh = n1-n2;
+                   // int n1 = Integer.parseInt(actheight);
+                    float n1 = Float.parseFloat(actheight);
+                    float med2= Float.parseFloat(med);
+                    float less2 =  med2-4;
+                    float more2  = med2+4;
+
+
+                 //   int hh = n1-n2;
+                    if (n1==med2)
+                    {
+                        Log.e("Perfect","Perfect");
+                        res.setText( "Perfect Height:");
+
+                    }
+                    else if (n1>more2)
+                    {
+                        res.setText( " High Height:");
+                        Log.e("Very High Weight","hight weight");
+                    }
+                    else if (n1<less2){
+                        res.setText( " Low Height:");
+                        Log.e("Low Weight","Low weight");
+                    }
+                    else {
+                        res.setText( " Normal Height:");
+                        Log.e("Normal","normal");
+                    }
                     String actwt = wt.getText().toString();
                     int w1 = Integer.parseInt(actwt);
                     int w2 = Integer.parseInt(weig);
                     int www = w1-w2;
-                    //  res.setText( "Standard Height:"+height);
+//                      res.setText( "Standard Height:"+height);
               //      res.setText( "Standard Height:"+height+    " Child Height is : "+   Integer.toString(hh)+ "Standard Weight:"+weig+"Child Weight is :"+Integer.toString(www));
                     //  Log.e("age nad height",Integer.toString(hh));
-                    res.setText( "Standard Height:"+height+ " \n Child Weight is :"+Integer.toString(www));
+                    //res.setText( "Standard Height:"+height+ " \n Child Weight is :"+Integer.toString(www));
                 }
 
             }
